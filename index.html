@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>HTML Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#html" >HTML</a></li>
+            <li><a href="#headings" class="nav-link">Headings</a></li>
+            <li><a href="#paragraphs" class="nav-link">Paragraphs</a></li>
+            <li><a href="#links" class="nav-link">Links</a></li>
+            <li><a href="#images" class="nav-link">Images</a></li>
+            <li><a href="#lists" class="nav-link">Lists</a></li>
+            <li><a href="#tables" class="nav-link">Tables</a></li>
+            <li><a href="#forms" class="nav-link">Forms</a></li>
+            <li><a href="#audio" class="nav-link">Audio</a></li>
+            <li><a href="#video" class="nav-link">Video</a></li>
+            <li><a href="#iframes" class="nav-link">iFrames</a></li>
+        </ul>
+    </nav>
+<main id="main-doc">
+    <section class="main-section" id="html">
+        <header>HTML</header>
+        <article>
+        <p>HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.</p>
+        <p>HTML has a lot of use cases, namely: </p>
+        <ul>
+            <li>Web development. Developers use HTML code to design how a browser displays web page elements, such as text, hyperlinks, and media files.</li>
+            <li>Internet navigation. Users can easily navigate and insert links between related pages and websites as HTML is heavily used to embed hyperlinks.</li>
+            <li>Web documentation. HTML makes it possible to organize and format documents, similarly to Microsoft Word.</li>
+        </ul>
+    </article>
+    </section>
+    <section class="main-section" id="headings">
+        <header>Headings</header>
+        <article>
+        <p>Headings are used to organize and structure the content of a web page. They are used to create a hierarchy of information, with the most important information at the top and the least important information at the bottom. Headings are also used to create a table of contents for a web page.  For example, a heading element will be in a separate line from a paragraph element.</p>
+        <p>Every HTML page uses these three tags: </p>
+        <ul>
+            <li><code>&lt;html&gt;</code>  tag is the root element that defines the whole HTML document.</li>
+            <li><code>&lt;head&gt;</code> tag holds meta information such as the page’s title and charset.</li>
+            <li><code>&lt;body&gt;</code> tag encloses all the content that appears on the page.</li>
+        </article>
+    </section>
+    <section class="main-section" id="paragraphs">
+        <header>Paragraphs</header>
+        <article>
+        <p>The <code>&lt;p&gt;</code> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+        </article>
+    </section>
+    <section class="main-section" id="links">
+        <header>Links</header>
+        <article>
+        <p>The <code>&lt;a&gt;</code> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</p>
+        </article>
+    </section>
+    <section class="main-section" id="images">
+        <header>Images</header>
+        <article>
+        <p>The <code>&lt;img&gt;</code> HTML element embeds an image into the document. You must always specify a src attribute to indicate the source of an image and an alt attribute to describe the image. An image is not technically inserted into a document; images are linked to documents. The <code>&lt;img&gt;</code> element creates a holding space for the referenced image.</p>
+        </article>
+    </section>
+    <section class="main-section" id="lists">
+        <header>Lists</header>
+        <article>
+        <p>The <code>&lt;ul&gt;</code> HTML element represents an unordered list of items, typically rendered as a bulleted list.</p>
+        <p>The <code>&lt;ol&gt;</code> HTML element represents an ordered list of items — typically rendered as a numbered list.</p>
+        <p>The <code>&lt;li&gt;</code> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list (<code>&lt;ol&gt;</code>), an unordered list (<code>&lt;ul&gt;</code>), or a menu (<code>&lt;menu&gt;</code>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.</p>
+        </article>
+    </section>
+    <section>
+        <header>Tables</header>
+        <article>
+        <p>The <code>&lt;table&gt;</code> HTML element represents tabular data — that is, information expressed via a two-dimensional table comprised of rows and columns of cells containing data.</p>
+        <p>Each cell may contain data as well as other HTML elements, including tables, lists, images, etc.</p>
+        </article>
+    </section>
+    <section>
+        <header>Forms</header>
+        <article>
+        <p>The <code>&lt;form&gt;</code> HTML element represents a document section that contains interactive controls to submit information to a web server.</p>
+        <p>Each control is represented by an <code>&lt;input&gt;</code> element. The controls include buttons, checkboxes, radio buttons, text fields, etc.</p>
+        </article>
+    </section>
+    <section>
+        <header>Audio</header>
+        <article>
+        <p>The <code>&lt;audio&gt;</code> HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <code>&lt;source&gt;</code> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.</p>
+        </article>
+    </section>
+    <section>
+        <header>Video</header>
+        <article>
+        <p>The <code>&lt;video&gt;</code> HTML element is used to show video content on a web page. It may contain one or more video sources, represented using the src attribute or the <code>&lt;source&gt;</code> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.</p>
+        </article>
+    </section>
+    <section>
+        <header>iFrames</header>
+        <article>
+        <p>The <code>&lt;iframe&gt;</code> HTML element represents a nested browsing context, effectively embedding another HTML page into the current page. In HTML 4, a document may contain a head and a body, or a head and a frameset, but not both a body and a frameset. Beginning with HTML5, however, it is possible to place a <code>&lt;body&gt;</code> element inside a <code>&lt;frameset&gt;</code> element.</p>
+        </article>
+    </section>
+    <section>
+        <header>
+            <article>
+                <ul>
+                    <li>
+                        All the documentation is this page is from <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN</a>
+                    </li>
+                </ul>
+            </article>
+        </header>
+    </section>
+</main>
+</body>
+</html>
